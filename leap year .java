@@ -15,7 +15,7 @@ import java.util.Scanner;
 
    read.close();
    if(number %4==0)
-        System.out.println("leap year");
+        System.out.println("yes");
     else
       System.out.println("no");
         
