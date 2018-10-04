@@ -16,6 +16,8 @@ import java.util.Scanner;
    read.close();
    if(number %4==0)
         System.out.println("leap year");
+    else
+      System.out.println("no");
         
       
 	}
@@ -24,3 +26,4 @@ import java.util.Scanner;
 
  	
  
+    
