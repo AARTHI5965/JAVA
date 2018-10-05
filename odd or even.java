@@ -1,17 +1,46 @@
 import java.util.Scanner;
-class Main {
-  public static void main(String[] args) {
-   
-   int number;
-   Scanner read = new Scanner(System.in);
-   System.out.print("");
-   number = read.nextInt();
-   read.close();
-  if(number%2==0)
-    System.out.println("even");
-  else if(number%2!=0)
-    System.out.println("odd");
-  else 
-     System.out.println("invalid");
-  }
-}
+
+
+ class Dcoder
+ { 
+	public static void main(String args[])
+ 	{ 
+
+		int number;
+
+  Scanner num = new        
+  Scanner(System.in);
+  number = num.nextInt();
+  int count = 1, sum = 0;
+    if(number > 0)
+
+        
+
+    System.out.println("Positive ");
+
+        
+
+  else if (number < 0)
+
+        
+
+    System.out.println("Negative");
+
+        
+
+    else if(number==0)
+
+        
+
+    System.out.println("Zero");
+
+  else
+
+     System.out.println(number+"neither positive nor negative nor zero");
+
+    
+
+
+ 	}
+ }
+    
